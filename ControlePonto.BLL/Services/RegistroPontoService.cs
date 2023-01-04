@@ -1,4 +1,5 @@
-﻿using ControlePonto.BLL.Services.Interfaces;
+﻿using ControlePonto.BLL.Intefaces;
+using ControlePonto.BLL.Services.Interfaces;
 using ControlePonto.DAL.Interfaces;
 using ControlePonto.Entity.Entidades;
 
@@ -8,7 +9,8 @@ namespace ControlePonto.BLL.Services
     {
         private readonly IRegistroPontoRepository _registroPontoRepository;
 
-        public RegistroPontoService(IRegistroPontoRepository registroPontoRepository)
+        public RegistroPontoService(IRegistroPontoRepository registroPontoRepository,
+                                             INotificador notificador) : base(notificador)
         {
             _registroPontoRepository = registroPontoRepository;
         }
