@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2WxYnlyQVUpfXi7d4cfKxEPwvIxS77iPN2UQIE9LuEI=",
+  "Source": "ControlePonto.API",
+  "BasePath": "_content/ControlePonto.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

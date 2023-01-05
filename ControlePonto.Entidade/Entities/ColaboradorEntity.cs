@@ -1,4 +1,4 @@
-﻿namespace ControlePonto.Entity.Entidades
+﻿namespace ControlePonto.Entity.Entities
 {
     public class ColaboradorEntity : BaseEntity
     {

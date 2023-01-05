@@ -1,6 +1,6 @@
 ﻿using ControlePonto.DAL.Context;
 using ControlePonto.DAL.Interfaces;
-using ControlePonto.Entity.Entidades;
+using ControlePonto.Entity.Entities;
 
 namespace ControlePonto.DAL.Repository
 {

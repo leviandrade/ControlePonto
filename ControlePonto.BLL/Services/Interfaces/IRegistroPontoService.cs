@@ -1,4 +1,4 @@
-﻿using ControlePonto.Entity.Entidades;
+﻿using ControlePonto.Entity.Entities;
 
 namespace ControlePonto.BLL.Services.Interfaces
 {

@@ -1,4 +1,4 @@
-﻿using ControlePonto.Entity.Entidades;
+﻿using ControlePonto.Entity.Entities;
 using System.Linq.Expressions;
 
 namespace ControlePonto.DAL.Interfaces

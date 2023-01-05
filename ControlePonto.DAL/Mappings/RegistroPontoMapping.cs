@@ -1,4 +1,4 @@
-﻿using ControlePonto.Entity.Entidades;
+﻿using ControlePonto.Entity.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

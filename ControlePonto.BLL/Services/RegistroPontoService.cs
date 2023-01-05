@@ -1,7 +1,7 @@
 ﻿using ControlePonto.BLL.Intefaces;
 using ControlePonto.BLL.Services.Interfaces;
 using ControlePonto.DAL.Interfaces;
-using ControlePonto.Entity.Entidades;
+using ControlePonto.Entity.Entities;
 
 namespace ControlePonto.BLL.Services
 {

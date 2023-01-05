@@ -1,6 +1,6 @@
 ﻿using ControlePonto.BLL.Intefaces;
 using ControlePonto.BLL.Notificacoes;
-using ControlePonto.Entity.Entidades;
+using ControlePonto.Entity.Entities;
 using FluentValidation;
 using FluentValidation.Results;
 

@@ -1,6 +1,6 @@
 ﻿using ControlePonto.DAL.Interfaces;
 using ControlePonto.DAL.Mappings;
-using ControlePonto.Entity.Entidades;
+using ControlePonto.Entity.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace ControlePonto.DAL.Context
@@ -14,11 +14,13 @@ namespace ControlePonto.DAL.Context
 
         public DbSet<ColaboradorEntity> Colaborador { get; set; }
         public DbSet<RegistroPontoEntity> RegistroPonto { get; set; }
+        public DbSet<UsuarioEntity> Usuario { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ColaboradorMapping());
             modelBuilder.ApplyConfiguration(new RegistroPontoMapping());
+            modelBuilder.ApplyConfiguration(new UsuarioMapping());
 
             base.OnModelCreating(modelBuilder);
         }

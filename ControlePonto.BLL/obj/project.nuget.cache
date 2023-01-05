@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YlC3qsdXKWuOo1zGy9UOooYt4ujbsiHVTIOAxE0bwrh/HS7qwx0WaKk98yoUrFWuXYL2XiS17UvYcVLs6/W5Rg==",
+  "dgSpecHash": "9RLnHwK2cJw2DiZj7+4huU4zpk9OS0i0QzkHBYSpvkglh/MbGyo0w0X9CE6iXjsbLNuOGU0BSM459kl4gEx7ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\ControlePonto.BLL\\ControlePonto.BLL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Levi\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Levi\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
-    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Levi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Levi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Levi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",

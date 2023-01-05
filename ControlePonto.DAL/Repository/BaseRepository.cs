@@ -1,5 +1,5 @@
 ﻿using ControlePonto.DAL.Interfaces;
-using ControlePonto.Entity.Entidades;
+using ControlePonto.Entity.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 

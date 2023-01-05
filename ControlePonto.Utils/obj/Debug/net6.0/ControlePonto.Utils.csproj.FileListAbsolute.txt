@@ -1,0 +1,12 @@
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Utils.deps.json
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Utils.dll
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Utils.pdb
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.csproj.AssemblyReference.cache
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.AssemblyInfoInputs.cache
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.AssemblyInfo.cs
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.dll
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\refint\ControlePonto.Utils.dll
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Utils.pdb
+C:\Users\Levi\source\repos\ControlePonto.API\ControlePonto.Utils\obj\Debug\net6.0\ref\ControlePonto.Utils.dll
