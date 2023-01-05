@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.BLL\\ControlePonto.BLL.csproj": {}
+  },
+  "projects": {
+    "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.BLL\\ControlePonto.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.BLL\\ControlePonto.BLL.csproj",
+        "projectName": "ControlePonto.BLL",
+        "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.BLL\\ControlePonto.BLL.csproj",
+        "packagesPath": "C:\\Users\\015110011\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\015110011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DAL\\ControlePonto.DAL.csproj": {
+                "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DAL\\ControlePonto.DAL.csproj"
+              },
+              "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj": {
+                "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj"
+              },
+              "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj": {
+                "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj"
+              },
+              "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj": {
+                "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DAL\\ControlePonto.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DAL\\ControlePonto.DAL.csproj",
+        "projectName": "ControlePonto.DAL",
+        "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DAL\\ControlePonto.DAL.csproj",
+        "packagesPath": "C:\\Users\\015110011\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\015110011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj": {
+                "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj",
+        "projectName": "ControlePonto.DTO",
+        "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj",
+        "packagesPath": "C:\\Users\\015110011\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\015110011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj",
+        "projectName": "ControlePonto.Entity",
+        "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj",
+        "packagesPath": "C:\\Users\\015110011\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\015110011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj": {
+                "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj",
+        "projectName": "ControlePonto.Helpers",
+        "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj",
+        "packagesPath": "C:\\Users\\015110011\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\015110011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
