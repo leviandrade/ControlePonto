@@ -22,13 +22,14 @@ export class LoginComponent {
 
   ngOnInit(): void {
     this.loginForm = this.fb.group({
-      Cpf: ['', [Validators.required, Validators.min(11)]],
+      NrCpf: ['', [Validators.required, Validators.min(11)]],
       Senha: ['', [Validators.required]]
     });
   }
 
   efetuarLogin(){
     this.login = Object.assign({}, this.login, this.loginForm.value);
+    console.log(this.loginForm.value);
     this.loginService.login(this.login)
     .subscribe(
       sucesso => { this.processarSucesso(sucesso) },
@@ -37,6 +38,7 @@ export class LoginComponent {
   }
   processarSucesso(response: any) {
     alert("Sucesso");
+    this.loginService.LocalStorage.salvarDadosLocaisUsuario(response)
     console.log(response);
   }
 

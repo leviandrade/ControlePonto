@@ -27,16 +27,16 @@ namespace ControlePonto.API.Controllers
 
         [Route("Login")]
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel login)
+        public async Task<IActionResult> Login([FromBody]LoginViewModel login)
         {
-            var oUsuario = await _usuarioService.Obter(login.Cpf, login.Senha);
+            var oUsuario = await _usuarioService.Obter(login.NrCpf, login.Senha);
             if(oUsuario is null)
             {
                 NotificarErro("Usuário e/ou Senha Inválidos");
                 return CustomResponse();
             }
 
-            return CustomResponse(GerarJwt(oUsuario, login.Cpf));
+            return CustomResponse(GerarJwt(oUsuario, login.NrCpf));
         }
 
         private LoginResponseViewModel GerarJwt(UsuarioDTO usuario, string cpf)

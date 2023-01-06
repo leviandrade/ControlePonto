@@ -1,4 +1,4 @@
 export class Login{
-    nrCpf!:string;
+    NrCpf!:string;
     Senha!:string;
 }

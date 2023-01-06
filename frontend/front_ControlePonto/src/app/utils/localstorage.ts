@@ -7,8 +7,8 @@ export class LocalStorageUtils {
     }
 
     public salvarDadosLocaisUsuario(response: any) {
-        this.salvarTokenUsuario(response.accessToken);
-        this.salvarUsuario(response.userToken);
+        this.salvarTokenUsuario(response.token);
+        this.salvarUsuario(response.nmUsuario);
     }
 
     public limparDadosLocaisUsuario() {

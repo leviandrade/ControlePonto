@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { ContaRoutingModule } from './conta.route';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoginService } from './services/login.service';
+import { ContaGuard } from '../services/conta.guard';
 
 
 
