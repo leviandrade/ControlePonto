@@ -1,13 +1,10 @@
-﻿using ControlePonto.DTO.DTOs;
-using ControlePonto.Entity.Intefaces;
+﻿using ControlePonto.Entity.Intefaces;
 using ControlePonto.Entity.Services.Interfaces;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControlePonto.API.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize]
     public class RegistroPontoController : BaseController
     {
         private readonly IRegistroPontoService _registroPontoService;
@@ -18,9 +15,10 @@ namespace ControlePonto.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> post(RegistroPontoDTO registroPonto)
+        [Route("{cpf}")]
+        public async Task<IActionResult> post(string cpf)
         {
-            await _registroPontoService.Adicionar(registroPonto);
+            await _registroPontoService.Adicionar(cpf);
             return CustomResponse();
         }
 

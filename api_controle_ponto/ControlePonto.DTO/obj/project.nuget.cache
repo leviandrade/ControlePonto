@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l2V1xY15a+CRoQ7v5uWolscWmLLUNPBaz0F/afCO346srN7HgFXOFhVJ7OYbTjL6IhMzF73xIKblSouSFXXjdg==",
+  "dgSpecHash": "VBWEa6eE0heKacOhKGQWYhux/4czkqH79vrum3e+WfFLEjCFOzYwtzl+S3kTNj9Vl5PdmQCyEOVPdgtD9vqUGQ==",
   "success": true,
-  "projectFilePath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj",
+  "projectFilePath": "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\api_controle_ponto\\ControlePonto.DTO\\ControlePonto.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -89,23 +89,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\015110011\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Levi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj",
       "projectName": "ControlePonto.Entity",
-      "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj",
-      "packagesPath": "C:\\Users\\015110011\\.nuget\\packages\\",
-      "outputPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Entidade\\obj\\",
+      "projectPath": "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\api_controle_ponto\\ControlePonto.Entidade\\ControlePonto.Entity.csproj",
+      "packagesPath": "C:\\Users\\Levi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\api_controle_ponto\\ControlePonto.Entidade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\015110011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Levi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -121,8 +123,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj": {
-              "projectPath": "D:\\Pessoal_2\\Ponto\\ControlePonto\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj"
+            "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj": {
+              "projectPath": "C:\\Users\\Levi\\source\\repos\\ControlePonto.API\\api_controle_ponto\\ControlePonto.Utils\\ControlePonto.Helpers.csproj"
             }
           }
         }
@@ -151,7 +153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
       }
     }
   }

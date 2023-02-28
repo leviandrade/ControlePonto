@@ -10,21 +10,30 @@ namespace ControlePonto.Entity.Services
 {
     public sealed class RegistroPontoService : BaseService, IRegistroPontoService
     {
+        private readonly IColaboradorRepository _colaboradorRepository;
         private readonly IRegistroPontoRepository _registroPontoRepository;
         private readonly IMapper _mapper;
 
         public RegistroPontoService(
+            IColaboradorRepository colaboradorRepository,
             IRegistroPontoRepository registroPontoRepository,
             IMapper mapper,
             INotificador notificador) : base(notificador)
         {
+            _colaboradorRepository = colaboradorRepository;
             _registroPontoRepository = registroPontoRepository;
             _mapper = mapper;
         }
 
-        public async Task Adicionar(RegistroPontoDTO registroPonto)
+        public async Task Adicionar(string cpf)
         {
-            var oRegistroPontoEntity = _mapper.Map<RegistroPontoEntity>(registroPonto);
+            var oColaborador = _colaboradorRepository.ObterPorCpf(cpf);
+
+            var oRegistroPontoEntity = new RegistroPontoEntity
+            {
+                IdColaborador = oColaborador.Id,
+                DtRegistroPonto = DateTime.Now
+            };
 
             if (!ExecutarValidacao(new RegistroPontoValidation(), oRegistroPontoEntity)) return;
 

@@ -40,5 +40,13 @@ namespace ControlePonto.API.Controllers
         {
             return CustomResponse(await _colaboradorService.ObterPorId(id));
         }
+
+        [HttpGet]
+        [Route("{cpf}/Cadastrado")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Cadastrado(string cpf)
+        {
+            return CustomResponse(await _colaboradorService.PossuiCadastrado(cpf));
+        }
     }
 }

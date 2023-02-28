@@ -22,3 +22,15 @@ D:\Pessoal_2\Ponto\ControlePonto\api_controle_ponto\ControlePonto.Utils\bin\Debu
 D:\Pessoal_2\Ponto\ControlePonto\api_controle_ponto\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Helpers.dll
 D:\Pessoal_2\Ponto\ControlePonto\api_controle_ponto\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Helpers.pdb
 D:\Pessoal_2\Ponto\ControlePonto\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\refint\ControlePonto.Helpers.dll
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Helpers.deps.json
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Helpers.dll
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\bin\Debug\net6.0\ControlePonto.Helpers.pdb
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.csproj.AssemblyReference.cache
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.AssemblyInfoInputs.cache
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.AssemblyInfo.cs
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.dll
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\refint\ControlePonto.Helpers.dll
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ControlePonto.Helpers.pdb
+C:\Users\Levi\source\repos\ControlePonto.API\api_controle_ponto\ControlePonto.Utils\obj\Debug\net6.0\ref\ControlePonto.Helpers.dll

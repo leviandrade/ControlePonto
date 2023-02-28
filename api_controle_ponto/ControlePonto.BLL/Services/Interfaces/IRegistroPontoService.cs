@@ -6,6 +6,6 @@ namespace ControlePonto.Entity.Services.Interfaces
     {
         Task<RegistroPontoDTO> ObterPorId(int id);
         Task<List<RegistroPontoDTO>> Listar();
-        Task Adicionar(RegistroPontoDTO registroPonto);
+        Task Adicionar(string cpf);
     }
 }

@@ -8,5 +8,6 @@ namespace ControlePonto.Entity.Services.Interfaces
         Task<List<ColaboradorDTO>> Listar();
         Task Adicionar(ColaboradorDTO colaborador);
         Task Atualizar(ColaboradorDTO colaborador);
+        Task<bool> PossuiCadastrado(string cpf);
     }
 }

@@ -59,5 +59,10 @@ namespace ControlePonto.Entity.Services
             var oColaboradorEntity = await _colaboradorRepository.ObterPorId(id);
             return _mapper.Map<ColaboradorDTO>(oColaboradorEntity);
         }
+
+        public Task<bool> PossuiCadastrado(string cpf)
+        {
+            return _colaboradorRepository.PossuiCadastro(cpf);
+        }
     }
 }
