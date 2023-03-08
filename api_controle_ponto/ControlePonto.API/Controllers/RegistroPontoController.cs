@@ -1,4 +1,5 @@
-﻿using ControlePonto.Entity.Intefaces;
+﻿using ControlePonto.DTO.DTOs;
+using ControlePonto.Entity.Intefaces;
 using ControlePonto.Entity.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,10 +16,16 @@ namespace ControlePonto.API.Controllers
         }
 
         [HttpPost]
-        [Route("{cpf}")]
-        public async Task<IActionResult> post(string cpf)
+        public async Task<IActionResult> post([FromBody] RegistroPontoDTO registroPonto)
         {
-            await _registroPontoService.Adicionar(cpf);
+            try
+            {
+                await _registroPontoService.Adicionar(registroPonto);
+            }
+            catch (Exception e)
+            {
+
+            }
             return CustomResponse();
         }
 
@@ -31,6 +38,12 @@ namespace ControlePonto.API.Controllers
         public async Task<IActionResult> get(int id)
         {
             return CustomResponse(await _registroPontoService.ObterPorId(id));
+        }
+
+        [HttpGet("{cpf}/{inicio}/{termino}")]
+        public async Task<IActionResult> get(string cpf, DateTime inicio, DateTime termino)
+        {
+            return CustomResponse(await _registroPontoService.Listar(cpf, inicio, termino));
         }
     }
 }

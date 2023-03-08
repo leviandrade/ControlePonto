@@ -1,0 +1,54 @@
+﻿@page
+@model front.ControlePonto.Pages.ControlePonto.IndexModel
+@{
+}
+
+<div class="card">
+    <div class="card-header">
+        Filtro
+    </div>
+    <div class="card-body">
+
+        <form id="frmControlePonto" class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label" for="inicio">Início</label><span class="text-danger">*</span>
+                <input type="date" class="form-control" name="inicio" id="inicio" required="required" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label" for="termino">Término</label><span class="text-danger">*</span>
+                <input type="date" class="form-control" name="termino" id="termino" required="required" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label" for="cpf">CPF</label><span class="text-danger">*</span>
+                <input type="text" class="form-control" name="cpf" id="cpf" placeholder="CPF" required="required">
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary" id="btnBuscar">Buscar</button>
+            </div>
+        </form>
+    </div>
+</div><br />
+
+<div class="card"  id="cardPontos d-none">
+    <div class="card-header">
+        Pontos Registrados
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center">Data</th>
+                    <th scope="col" class="text-center">Entrada</th>
+                    <th scope="col" class="text-center">Saída</th>
+                    <th scope="col" class="text-center">Entrada</th>
+                    <th scope="col" class="text-center">Saída</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyPontos">
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/controlePonto/index.js"></script>
+    }

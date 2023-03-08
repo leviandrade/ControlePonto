@@ -25,14 +25,18 @@ namespace ControlePonto.Entity.Services
             _mapper = mapper;
         }
 
-        public async Task Adicionar(string cpf)
+        public async Task Adicionar(RegistroPontoDTO registroPonto)
         {
-            var oColaborador = _colaboradorRepository.ObterPorCpf(cpf);
+
+            var oColaborador = await _colaboradorRepository.ObterPorCpf(registroPonto.CPF);
 
             var oRegistroPontoEntity = new RegistroPontoEntity
             {
                 IdColaborador = oColaborador.Id,
-                DtRegistroPonto = DateTime.Now
+                DtRegistroPonto = DateTime.Now,
+                Imagem = registroPonto.Imagem,
+                Latitude = registroPonto.Latitude,
+                Longitude = registroPonto.Longitude
             };
 
             if (!ExecutarValidacao(new RegistroPontoValidation(), oRegistroPontoEntity)) return;
@@ -44,6 +48,12 @@ namespace ControlePonto.Entity.Services
         public async Task<List<RegistroPontoDTO>> Listar()
         {
             var lstRegistroPontoEntity = await _registroPontoRepository.Listar();
+            return _mapper.Map<List<RegistroPontoDTO>>(lstRegistroPontoEntity);
+        }
+
+        public async Task<List<RegistroPontoDTO>> Listar(string cpf, DateTime inicio, DateTime termino)
+        {
+            var lstRegistroPontoEntity = await _registroPontoRepository.Listar(cpf, inicio, termino);
             return _mapper.Map<List<RegistroPontoDTO>>(lstRegistroPontoEntity);
         }
 

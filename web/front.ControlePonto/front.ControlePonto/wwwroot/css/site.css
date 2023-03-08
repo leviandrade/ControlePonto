@@ -1,0 +1,44 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#btnBuscar {
+    margin-top: 31px;
+}
+
+#tbodyPontos > tr > th, #tbodyPontos > tr > td {
+    border: 1px solid lightgray;
+    text-align:center
+}
+
+.loading {
+    background-image: url('../images/loading.gif');
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #666;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10000000;
+    font-family: -webkit-body;
+    opacity: 0.9;
+}
+
+.modal-body {
+    overflow: auto;
+    text-align:center;
+}
+

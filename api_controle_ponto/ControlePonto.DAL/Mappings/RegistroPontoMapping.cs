@@ -13,7 +13,14 @@ namespace ControlePonto.DAL.Mappings
 
             builder.Property(p => p.Id).HasColumnName("ID_REGISTRO_PONTO");
             builder.Property(p => p.IdColaborador).HasColumnName("ID_COLABORADOR");
+            builder.Property(p => p.Imagem).HasColumnName("IMAGEM");
             builder.Property(p => p.DtRegistroPonto).HasColumnName("DT_REGISTRO_PONTO");
+            builder.Property(p => p.Latitude).HasColumnName("LATITUDE");
+            builder.Property(p => p.Longitude).HasColumnName("LONGITUDE");
+
+            builder.HasOne(p => p.Colaborador)
+                   .WithMany()
+                   .HasForeignKey(p => p.IdColaborador);
         }
     }
 }
